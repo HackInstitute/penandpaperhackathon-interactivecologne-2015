@@ -349,7 +349,7 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/header-cologne.jpg) no-repeat center top;
 	padding-top: 210px;
 	text-align:center;
 	background-attachment: relative;
@@ -370,29 +370,35 @@ input {
 }
 
 #h h1 {
+	text-shadow: 2px 2px 4px #000000;
 	font-weight: 900;
 	font-size: 70px;
 }
 
 #h h5 {
+	text-shadow: 2px 2px 4px #000000;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 400;
 }
 
 #h h2 {
+	text-shadow: 2px 2px 4px #000000;
+	margin-top: 30px;
 	font-size: 35px;
 }
 
 /* DIVIDED SECTION */
 .news {
 	background-position: center;
-	background-image: url('../img/news-bg.jpg');
+	background: url('../img/dr-ulrich-s-soenius.jpg') no-repeat center right;
 	background-size: cover;
 }
 
 .flip {
-	background-image: url('../img/news-bg-flip.jpg');
+	background-position: center;
+	background: url('../img/ob_rathaus_dark.jpg') no-repeat top right;
+	background-size: cover;
 }
 
 .news .container {
@@ -458,13 +464,13 @@ input {
 
 /* TESTIMONIAL SECTION */
 .testimonials {
-	background-position: center;
+/*	background-position: center;
 	background-image: url('../img/testimonials.jpg');
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .testimonials .container {
-	width: 100%
+	width: 100%;
 }
 
 .section-bg-grey {
@@ -525,11 +531,20 @@ input {
 }
 
 /* SPONSORS */
+.sponsor {
+	margin-bottom: 50px;
+}
 
 .sponsor img {
 	max-width: 140px;
 	max-height: 60px;
 	vertical-align: middle;
+}
+
+.sponsor.big img {
+	max-width: 340px;
+	max-height: 160px;
+	vertical-align: middle;	
 }
 
 .sponsor .col-sm-2 {
@@ -552,7 +567,9 @@ input {
 
 /* MAP */
 
-#map-contact {
+#map {
+	width: 100%;
+	margin: 0;
 	height: 400px;
 }
 
